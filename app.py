@@ -10,5 +10,3 @@ def index():
         return render_template('index.html')
     if request.method == 'POST':
         return render_template('index.html')
-
-app.run(port=8000,host="0.0.0.0")
